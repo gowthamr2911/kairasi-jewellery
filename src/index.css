@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-royal-maroon: #3B0A11;
+  --color-royal-maroon-dark: #230509;
+  --color-warm-gold: #D4AF37;
+  --color-warm-gold-dark: #C5A059;
+  --color-warm-gold-light: #F3E5AB;
+  --color-cream: #FAF8F5;
+  --font-serif: "Cinzel", "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-royal-maroon);
+}
