@@ -9,12 +9,12 @@ export default defineConfig({
       '/api/gold': {
         target: 'https://www.goodreturns.in/gold-rates/chennai.html',
         changeOrigin: true,
-        rewrite: (path) => ''
+        rewrite: () => ''
       },
       '/api/silver': {
         target: 'https://www.goodreturns.in/silver-rates/chennai.html',
         changeOrigin: true,
-        rewrite: (path) => ''
+        rewrite: () => ''
       }
     }
   }

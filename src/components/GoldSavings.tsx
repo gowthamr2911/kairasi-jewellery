@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { PiggyBank, ArrowRight, Percent, Scale, Gift } from 'lucide-react';
+import { PiggyBank, ArrowRight, Scale, Gift } from 'lucide-react';
 
 export default function GoldSavings() {
   const [activeTab, setActiveTab] = useState<'option1' | 'option2'>('option1');
